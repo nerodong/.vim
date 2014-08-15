@@ -1,0 +1,100 @@
+,V
+    self.,V
+1,v
+        return campaign_report,V
+e,v
+l,v
+p,v
+m,v
+i,v
+s,v
+/,v
+o,v
+c,v
+.,v
+n,v
+a,v
+b,v
+u,v
+d,v
+y,v
+:,v
+t,v
+h,v
+            print placement_without_uclick            #break,V
+                        uclick = uclick_finder.placement_stats(placement_id,self.quarter)                        landing_rate = self.landing_generate(record,uclick),V
+                        #print uclick                        #if i == 2:                            #break,V
+,,v
+=,v
+&,v
+r,v
+0,v
+7,v
+2,v
+w,v
+_,v
+F,v
+T,v
+),v
+(,v
+    "debug_level":1},V
+    "deletable":0,,V
+ ,v
+                        ",,V
+                        &key_prefix=industry/,V
+    ,V
+q,v
+",v
+         ",v
+>,v
+<,v
+x,v
+f,v
+P,v
+K,v
+k,v
+B,v
+S,v
+    "src":          "/home/your/sync_dir",,V
+         = 0,V
+most_placement_site,v
+},v
+{,v
+I,v
+g,v
+L,v
+            print '**'*30 + 'Landing Info of site_{id} updated within {q} secs'.format(id=sid, q=cycle_time) + '**'*30,V
+                error_counter += 1,V
+        for i,record in enumerate(legal_list):,V
+            self.insert_to_industry_placement(placement_with_uclick,int(sid)),V
+            print '  '*30,V
+            for i,record in enumerate(legal_list):,V
+            assert False,V
+            pass,V
+N,v
+J,v
+#class MediaIDJob(TrackMaster_Extractor),V
+pypi.hustunique.com,v
+        #### There is a big bug here, which lead to the insertation drops 50% records,V
+            print '**'*30 + 'Updated {num} Placement Records, {ill} Abnormal Placement Found, Overall {i} Sites'.format(num=placement_with_uclick.__len__(),ill=illness_count, i=index) + '**'*30            print '**'*35 + '{num} Sites Pending'.format(num=(legal_list.__len__() - index -1)) + '**'*35,V
+                index -= 1,V
+                local_db.execute(target.insert().values(item)),V
+                print '++'*10 + 'siteid: %s'%str(item['siteId']) + '++'*10 + 'num: %s'%index,V
+                    local_db.execute(target.insert().values(item)),V
+v,v
+3,v
+4,v
+192.168.3.243 dev.sitemaster.com.cn,V
+*,v
+                    print '***'*30,V
+                record['name'] = str(),V
+!,v
+                return record,V
+,convert_unicode=True,v
+                    print ,V
+                    print record['name'],V
+                print 'Insertation into Table with {re} records, network:{n} , media:{m}'.format(re=num,n=id,m=record['id']),V
+        media_reference.insert().values(media_raw),V
+                media_raw.append(record),V
+            return media_raw,V
+            break,V
